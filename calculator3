@@ -1,0 +1,7 @@
+puts "Hi there! I am a farenheit to celcius calculator!"
+i = gets
+puts "how many degrees farenheit is it?"
+fare = gets.to_i
+puts "are you sure you want to do this? It can kill you with all the power it has"
+yes = gets
+puts "your answer is " + [(fare - 32) * 5/9].to_s  

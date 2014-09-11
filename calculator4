@@ -1,0 +1,13 @@
+puts "I am a distance calculator!"
+i = gets
+puts "what is your x?"
+x = gets.to_i
+puts "what is your y?"
+y = gets.to_i
+puts "what is your x2?"
+x2 = gets.to_i
+puts "what is your y2?"
+y2 = gets.to_i
+puts "your distance is " + [(x2 - x)**2 + (y2 - y)**2].to_s + " Say thanks!"
+answer = gets
+puts "im always watching.... MWAHAHAHA!!"

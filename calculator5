@@ -1,0 +1,7 @@
+puts "Hi there! I am a pythagoream theorem calculator!"
+i = gets
+puts "What is the are of the first square?"
+sone = gets.to_i
+puts "What is the area of your second square?"
+stwo = gets.to_i
+puts "Your answer is " + (sone + stwo **2).to_s 

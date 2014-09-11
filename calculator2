@@ -1,0 +1,10 @@
+puts "Alo mate! I am a tax interest calculator!"
+i = gets
+puts "what is your items origional cost?"
+cost = gets.to_i
+puts "your answer is " + (cost * 0.06 + cost).to_s + " Say thanks"
+answer = gets
+puts "Press n to nuke russia."
+nuke = gets
+puts "The deal is done sir. Jolly good job i say."
+
